@@ -5,14 +5,19 @@
 > must let your docker environment can use!
 
 ```sh
+# clone code
+git clone https://github.com/sinlov/rust_in_docker.git
+# into project path
+
+cd rust_in_docker
+
+
 # see help
 make help
 # run use docker
 make runDocker
-
 # clean build
 make cleanAll
-# only support make run
 ```
 
 ## in local mode
